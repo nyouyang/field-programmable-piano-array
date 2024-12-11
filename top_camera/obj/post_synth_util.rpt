@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
-| Date         : Tue Dec 10 16:49:21 2024
-| Host         : eecs-digital-47 running 64-bit Ubuntu 24.04.1 LTS
+| Date         : Wed Dec 11 10:33:06 2024
+| Host         : eecs-digital-05 running 64-bit Ubuntu 24.04.1 LTS
 | Command      : report_utilization -file obj/post_synth_util.rpt -hierarchical -hierarchical_depth 4
 | Design       : top_level
 | Device       : xc7s50csga324-1
@@ -99,11 +99,11 @@ Table of Contents
 |   vsg                                        |                                   video_sig_gen |        105 |        105 |       0 |    0 |   21 |      0 |      0 |          0 |
 |   wizard_hdmi                                |                                 cw_hdmi_clk_wiz |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
 |   wizard_migcam                              |                                 cw_fast_clk_wiz |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          0 |
-|   x_sobel_compute                            |                                  key_boundary_x |        935 |        932 |       0 |    3 |  364 |      0 |      0 |          0 |
+|   x_sobel_compute                            |                                  key_boundary_x |        932 |        929 |       0 |    3 |  364 |      0 |      0 |          0 |
 |   x_sobel_mask                               |                                   sobel_masking |          2 |          2 |       0 |    0 |    5 |      0 |      0 |          3 |
 |     (x_sobel_mask)                           |                                   sobel_masking |          2 |          2 |       0 |    0 |    1 |      0 |      0 |          0 |
 |     sobel_rgb_ycrcb                          |                                  rgb_to_ycrcb_8 |          0 |          0 |       0 |    0 |    4 |      0 |      0 |          3 |
-|   y_sobel_compute                            |                                  key_boundary_y |        141 |        135 |       0 |    6 |   93 |      0 |      0 |          0 |
+|   y_sobel_compute                            |                                  key_boundary_y |        144 |        138 |       0 |    6 |   93 |      0 |      0 |          0 |
 |   y_sobel_mask                               |                                 sobel_masking_6 |         56 |         34 |       0 |   22 |   48 |      0 |      0 |          3 |
 |     (y_sobel_mask)                           |                                 sobel_masking_6 |         56 |         34 |       0 |   22 |   44 |      0 |      0 |          0 |
 |     sobel_rgb_ycrcb                          |                                  rgb_to_ycrcb_7 |          0 |          0 |       0 |    0 |    4 |      0 |      0 |          3 |

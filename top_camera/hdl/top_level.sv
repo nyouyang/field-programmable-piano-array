@@ -522,7 +522,7 @@ module top_level
     .x_coords_keys_bottom(x_coords_keys_bottom),
     .y_coords_keys_white(y_coords_keys_white),
     .y_coords_keys_black(y_coords_keys_black),
-    .x_com(middle_x>>2),
+    .x_com((1279-middle_x)>>2),
     .y_com(middle_y>>2),
     .note(middle_note)
   );
@@ -534,7 +534,7 @@ module top_level
     .x_coords_keys_bottom(x_coords_keys_bottom),
     .y_coords_keys_white(y_coords_keys_white),
     .y_coords_keys_black(y_coords_keys_black),
-    .x_com(pinky_x>>2),
+    .x_com((1279-pinky_x)>>2),
     .y_com(pinky_y>>2),
     .note(pinky_note)
   );
