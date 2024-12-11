@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1732315964" />
+    <testcase name="test_key_association" classname="test_key_association" file="/Users/lucycai/6.205/final project/sim/test_key_association.py" lineno="16" time="0.00994110107421875" sim_time_ns="2030.001" ratio_time="204202.83274904068" />
+  </testsuite>
+</testsuites>
